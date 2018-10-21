@@ -2,7 +2,7 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
-  min_number_value = 9999999999999   
+  min_number_value = 9999999999999    
 	min_name_key = nil          
 	
 	name_hash.each do |key,val|
